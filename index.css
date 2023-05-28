@@ -1,0 +1,215 @@
+/*Header*/
+.custom-nav{
+    font-size: 18px;
+    transition: all 0.3s;
+    color:#f9fbf5;
+}
+.custom-nav:hover{
+    color: #bed85f;
+}
+.custom-dropdown{
+    border: none;
+    background-color: #f9fbf5;
+}
+.custom-dropdown a{
+    color: #32302d;
+    transition: all 0.2s;
+}
+.custom-dropdown a:hover{
+    color: #b4ce4f;
+    background-color: #F5FBDE;
+}
+::selection {
+    color: white;
+    background: #a4d14c;
+}
+/*Content*/
+p{
+    font-size: 18px;
+}
+.percentage{
+    color: #f2eecb;
+}
+.custom-button-light{
+    background-color: #f9fbf5;
+    color: #466d4d;
+    transition: all 0.3s;
+}
+.custom-button-light:hover{
+    border: #f9fbf5 solid 1px;
+    color: #e9fad2;
+}
+.custom-button-dark{
+    background-color:  #466d4d;
+    color: #e9fad2;
+    transition: all 0.3s;
+}
+.custom-button-dark:hover{
+    border: #466d4d solid 1px;
+    color: #466d4d;
+}
+.custom-border-bottom{
+    border-bottom: #bed85f solid 2px; 
+    padding-bottom: 20px; 
+}
+.custom-border-dot{
+    border: dotted 1px #D2D2D2;
+}
+.light-text{
+    color: #676257;/*,67645e 67645d*/
+}
+.dark-text{
+    color: #322e2a;
+}
+.read-link-design{
+    color: #466d4d;
+    transition: all 0.2s;
+}
+.read-link-design:hover{
+    color: #bed85f;
+}
+.ci-link{
+    color: #b4ce4f;
+    transition: all 0.3s;
+}
+.ci-link:hover{
+    color: #466d4d;
+}
+.green-title{
+    color: #abcc3d;
+}
+/*Footer*/
+.footer-grid{
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column-gap: 20vw;
+}
+.footer-icon-color{
+    color: #bed85f;
+    transition: all 0.3s;
+}
+.footer-icon-color:hover{
+    color: #f9fbf5;
+}
+/*Sign up and Log in*/
+.color-side{
+    background: linear-gradient(#2f5c40, #3b6249, #37684f, #40785f);
+    color: #f9fbf5; 
+    height: 100vh;
+}
+.button-signing{
+    background-color: #eeece4;
+    color: #466d4d;
+    transition: all 0.3s;
+}
+.button-signing:hover{
+    background-color: #3b7d61;
+    color: #f9fbf5;
+    border: solid 1px #3b7d61;
+}
+.user-input{
+    border: #eeece4 solid 3px;
+    background-color: #eeece4;
+    border-radius: 5px;
+    transition: all .3s;
+}
+.user-input:hover{
+    background-color: #fff;
+    border: #bed85f solid 3px;
+    opacity: .5;
+}
+/*About*/
+.custom-accordion-button{
+    font-weight: bold;
+}
+.custom-accordion-body{
+    color: #466d4d;
+    background-color: #E9F8F4;
+}
+.custom-accordion-header{
+    background-color: white;
+}
+.cult-card{
+    background-color: #f9fbf5;
+}
+.faq{
+    width: 60%;
+}
+/*Plants*/
+.custom-plant-nav{
+    font-size: 20px;
+    transition: all 0.3s;
+    color:#f9fbf5;
+}
+.custom-plant-nav:hover{
+    color: #bed855;
+}
+.planting-border{
+    border-left: solid 2px #bed85f; 
+    border-right: solid 2px #bed85f; 
+}
+.plant-bar{
+    color: #bed85f;
+    transition: all 0.3s;
+}
+.plant-bar:hover{
+    color: #466d4d;
+}
+.dgreen-title{
+    color: #3b7d61;
+}
+/*Contact*/
+.contact-icon-color{
+    color: #d9dec3;
+    transition: all 0.3s;
+}
+.contact-icon-color:hover{
+    color: #40785f;
+}
+.contact-border{
+    border-bottom-left-radius: 10px; 
+    border-top-left-radius: 10px;
+}
+.contact-message{
+    border-bottom-right-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+/*Information*/
+.info-title{
+    color: #3b7d61;
+    font-weight: 500;
+}
+.content-l{
+    border-right: #676257a8 solid 2px;
+}
+.info-content{
+    color: #322e2a;
+    transition: all 0.3s;
+    padding: 10px;
+}
+.info-content:hover{
+    background-color: #E9F8F4;
+    color: #466d4d;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+/*Donate*/
+.border-bottom-donate{
+    border-bottom: #bed85f solid 2px;
+}
+.tab-nav{
+    color: #40785f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.tab-nav:hover{
+    color: #bed85f;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-radius: 10px;    
+    color: #466d4d;
+    background-color: #E9F8F4;
+    font-weight: bold;
+}
